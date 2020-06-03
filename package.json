@@ -1,0 +1,37 @@
+{
+  "name": "workinsport",
+  "version": "1.0.0",
+  "description": "A node.js RESTful API for Architecture SoftWare",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Vladyslav Narmaniia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "js-base64": "^2.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "liqpay": "0.0.1",
+    "liqpay-sdk": "^3.2.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.0",
+    "node-fetch": "^2.6.0",
+    "nodejs-base64": "^1.0.3",
+    "sequelize": "^5.21.2",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
